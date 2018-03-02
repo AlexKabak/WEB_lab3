@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+}
+TABLE {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    width: 500px;
+    height: 250px;
+    
+}
+TH {
+    background: #a3cee9;
+}
+TD{
+    text-align: center;
+    background: #d3e7f4;
+    color: black;
+}
+.zag{
+    text-align: left;
+    padding: 10px;
+    padding-left: 30px;
+    background: #a3cee9;
+    color: white;
+}
