@@ -1,0 +1,81 @@
+* {
+    top: 0;
+	margin: 0;
+}
+TABLE{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #888AAD;
+}
+TH{
+    border: 1px solid #dadada;
+    color: white;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, #a0d928),
+        color-stop(0.87, #7ec044)
+        );
+    border-radius: 10px 10px 0px 0px;
+}
+TD{
+    border: 1px solid #dadada;
+    color: black;
+    background:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.02, #e1f7c9),
+        color-stop(0.87, #def3ca)
+        );
+    
+}
+
+.null{
+    background: white;
+    border-left: #e7cac2;
+    border-top: #e7cac2;
+}
+.men{
+    color: white;
+    background:-webkit-gradient(linear,
+        left bottom,
+        left top,
+        color-stop(0.02, #75c03f),
+        color-stop(0.87, #9cd82b)
+        );
+    border-radius: 10px 0px 0px 10px;
+}
+.fut{
+    background:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.02, #ffffff),
+        color-stop(0.87, #ffffff)
+        );
+    border: 1px solid white;
+}
+.prise{
+    color: #9ec828;
+    background:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.02, #ffffff),
+        color-stop(0.87, #ffffff)
+        );
+    font-size: 30px;
+    margin: 0 0 0 0;
+    border: 1px solid white;
+}

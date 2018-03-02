@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+}
+body{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+TABLE {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;  
+    border-spacing: 0;
+    
+}
+TH {
+    background-color: #81b522;
+    text-align: center
+}
+TD{
+    color: black;
+    padding-right: 10px;
+}
+td:nth-child(odd){
+    background-color: #f0ffd3;
+} 
+td:nth-child(even){
+    background-color: #e5ffb9;
+} 
